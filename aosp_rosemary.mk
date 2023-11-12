@@ -19,6 +19,9 @@ TARGET_INCLUDE_LIVE_WALLPAPERS := true
 TARGET_USES_AOSP_RECOVERY := true
 TARGET_BOOT_ANIMATION_RES := 1080
 
+# Build GCamGO
+$(call inherit-product-if-exists, vendor/gcgop/config.mk)
+
 PRODUCT_NAME := aosp_rosemary
 PRODUCT_DEVICE := rosemary
 PRODUCT_MANUFACTURER := Xiaomi
