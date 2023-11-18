@@ -1,0 +1,33 @@
+[
+  {
+    "repository": "PixelBuilds-Staging/android_device_mediatek_sepolicy_vndr",
+    "target_path": "device/mediatek/sepolicy_vndr",
+    "branch": "unity"
+  },
+  {
+    "repository": "PixelBuilds-Staging/android_hardware_mediatek",
+    "target_path": "hardware/mediatek",
+    "branch": "unity"
+  },
+  {
+    "repository": "PixelBuilds-Staging/android_hardware_xiaomi",
+    "target_path": "hardware/xiaomi",
+    "branch": "unity"
+  },
+  {
+    "repository": "PixelBuilds-Devices/android_kernel_xiaomi_mt6785",
+    "target_path": "kernel/xiaomi/mt6785",
+    "branch": "unity"
+  },
+  {
+    "remote": "gitlab",
+    "repository": "PixelBuilds/vendor-blobs/android_vendor_xiaomi_rosemary",
+    "target_path": "vendor/xiaomi/rosemary",
+    "branch": "unity"
+  },
+  {
+    "repository": "Kasumi-Staging/android_vendor_kasumi_gcgop",
+    "target_path": "vendor/kasumi/gcgop",
+    "branch": "kasumi-v3"
+  }
+]
