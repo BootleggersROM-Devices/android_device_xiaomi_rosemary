@@ -45,4 +45,4 @@ TARGET_SCREEN_WIDTH := 1080
 
 # Maintainer
 DEVICE_MAINTAINERS := Beru Krugermeier (windowz414)
-#BOOTLEGGERS_BUILD_TYPE := Shishufied
+BOOTLEGGERS_BUILD_TYPE := Shishufied
