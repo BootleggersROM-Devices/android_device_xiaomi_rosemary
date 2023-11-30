@@ -1,16 +1,16 @@
 [
   {
-    "repository": "PixelBuilds-Staging/android_device_mediatek_sepolicy_vndr",
+    "repository": "PixelBuildsROM/android_device_mediatek_sepolicy_vndr",
     "target_path": "device/mediatek/sepolicy_vndr",
     "branch": "unity"
   },
   {
-    "repository": "PixelBuilds-Staging/android_hardware_mediatek",
+    "repository": "PixelBuildsROM/android_hardware_mediatek",
     "target_path": "hardware/mediatek",
     "branch": "unity"
   },
   {
-    "repository": "PixelBuilds-Staging/android_hardware_xiaomi",
+    "repository": "PixelBuildsROM/android_hardware_xiaomi",
     "target_path": "hardware/xiaomi",
     "branch": "unity"
   },
