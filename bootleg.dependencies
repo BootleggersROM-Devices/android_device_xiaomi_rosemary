@@ -10,9 +10,8 @@
     "branch": "unity"
   },
   {
-    "repository": "PixelBuildsROM/android_hardware_xiaomi",
-    "target_path": "hardware/xiaomi",
-    "branch": "unity"
+    "repository": "android_hardware_xiaomi",
+    "target_path": "hardware/xiaomi"
   },
   {
     "repository": "PixelBuilds-Devices/android_kernel_xiaomi_mt6785",
