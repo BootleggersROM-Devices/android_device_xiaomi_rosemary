@@ -10,6 +10,7 @@
     "branch": "unity"
   },
   {
+    "remote": "bootleggers-lab",
     "repository": "android_hardware_xiaomi",
     "target_path": "hardware/xiaomi"
   },
