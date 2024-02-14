@@ -24,8 +24,8 @@
     "target_path": "vendor/xiaomi/rosemary"
   },
   {
-    "repository": "ProjectKasumi/vendor_gcgop",
-    "target_path": "vendor/gcgop",
-    "branch": "kasumi-v2"
+    "repository": "Kasumi-Staging/android_vendor_kasumi_gcgop",
+    "target_path": "vendor/kasumi/gcgop",
+    "branch": "kasumi-v3"
   }
 ]
