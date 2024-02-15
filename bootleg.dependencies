@@ -24,10 +24,5 @@
     "repository": "PixelBuilds/vendor-blobs/android_vendor_xiaomi_rosemary",
     "target_path": "vendor/xiaomi/rosemary",
     "branch": "unity"
-  },
-  {
-    "repository": "Kasumi-Staging/android_vendor_kasumi_gcgop",
-    "target_path": "vendor/kasumi/gcgop",
-    "branch": "kasumi-v3"
   }
 ]
