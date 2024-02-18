@@ -1,11 +1,11 @@
 [
   {
-    "repository": "PixelBuildsROM/android_device_mediatek_sepolicy_vndr",
+    "repository": "PixelBuilds-Staging/android_device_mediatek_sepolicy_vndr",
     "target_path": "device/mediatek/sepolicy_vndr",
     "branch": "unity"
   },
   {
-    "repository": "PixelBuildsROM/android_hardware_mediatek",
+    "repository": "PixelBuilds-Staging/android_hardware_mediatek",
     "target_path": "hardware/mediatek",
     "branch": "unity"
   },
