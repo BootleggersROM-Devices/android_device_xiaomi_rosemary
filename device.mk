@@ -7,9 +7,6 @@
 # Installs gsi keys into ramdisk, to boot a developer GSI with verified boot.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/developer_gsi_keys.mk)
 
-# Enable updating of APEXes
-$(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
-
 # Inherit virtual_ab_ota product
 $(call inherit-product, $(SRC_TARGET_DIR)/product/virtual_ab_ota.mk)
 
@@ -19,7 +16,7 @@ PRODUCT_AAPT_PREF_CONFIG := xxhdpi
 
 # A/B
 PRODUCT_PACKAGES += \
-    android.hardware.boot-service.default \
+    com.android.hardware.boot \
     android.hardware.boot-service.default_recovery
 
 PRODUCT_PACKAGES += \
@@ -241,10 +238,6 @@ PRODUCT_PACKAGES += \
     libpuresoftkeymasterdevice.vendor \
     libsoft_attestation_cert.vendor
 
-# Keystore
-PRODUCT_PACKAGES += \
-    android.system.keystore2
-
 # Lights
 PRODUCT_PACKAGES += \
     android.hardware.light-service.rosemary
@@ -462,15 +455,15 @@ PRODUCT_SOONG_NAMESPACES += \
 
 # Thermal
 PRODUCT_PACKAGES += \
-    android.hardware.thermal@1.0-impl
+    android.hardware.thermal-service.mediatek
 
-PRODUCT_PACKAGES += \
-    android.hardware.thermal@2.0.vendor
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/thermal_info_config.json:$(TARGET_COPY_OUT_VENDOR)/etc/thermal_info_config.json
 
 # USB
 PRODUCT_PACKAGES += \
     android.hardware.usb-service.mediatek \
-    android.hardware.usb.gadget-service.rosemary
+    android.hardware.usb.gadget-service.mediatek
 
 # Vibrator
 PRODUCT_PACKAGES += \
@@ -486,6 +479,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     wpa_supplicant \
     hostapd \
+    libwifi-hal-wrapper \
     android.hardware.wifi-service
 
 PRODUCT_PACKAGES += \
